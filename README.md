@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
@@ -13,6 +13,12 @@ yarn serve
 ### Compiles and minifies for production
 ```
 yarn build
+```
+
+### deploy
+
+```shell
+$ yarn deploy
 ```
 
 ### Run your unit tests
@@ -30,5 +36,6 @@ yarn test:e2e
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Material Design Icon
+
+- https://materialdesignicons.com/
