@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="app">
+    <h1>{{ $store.state.message }}</h1>
   </div>
 </template>
+
+<script>
+// export default {
+//   name: 'app',
+//   data: function(){
+//     return {
+//       message : 'Hello Vuex'
+//     }
+//   }
+// }
+</script>
